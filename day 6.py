@@ -281,89 +281,88 @@
 
 
 #Tower of Hanoi:
-# import time
-# class Tower:
+import time
+class Tower:
     
-#     def __init__(self):
-#         print("WELCOME TO TOWER OF HONOI GAME")
-#         print()
-#         print("Problem : A[1,2,3]       B[]       C[]")
-#         print()
-#         print("Goal :    A[]            B[]       C[1,2,3]")
-#         self.A = []
-#         self.B = []
-#         self.C = []
+    def __init__(self):
+        print("WELCOME TO TOWER OF HONOI GAME")
+        print()
+        print("Problem : A[1,2,3]       B[]       C[]")
+        print()
+        print("Goal :    A[]            B[]       C[1,2,3]")
+        self.A = []
+        self.B = []
+        self.C = []
 
-#     def tower(self,item):
-#         self.A.append(item)
-#         time.sleep(3)
-#         print("A = ",self.A)
-#         print("Items in Tower A\n")
+    def tower(self,item):
+        self.A.append(item)
+        time.sleep(3)
+        print("A = ",self.A)
+        print("Items in Tower A\n")
 
-#     def pass1(self):
-#         self.temp = self.A.pop(2)
-#         self.C.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 1 Complete =====================================")
+    def pass1(self):
+        self.temp = self.A.pop(2)
+        self.C.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 1 Complete =====================================")
 
-#     def pass2(self):
-#         self.temp = self.A.pop(1)
-#         self.B.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 2 Complete =====================================")
+    def pass2(self):
+        self.temp = self.A.pop(1)
+        self.B.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 2 Complete =====================================")
     
-#     def pass3(self):
-#         self.temp = self.C.pop(0)
-#         self.B.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 3 Complete =====================================")
+    def pass3(self):
+        self.temp = self.C.pop(0)
+        self.B.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 3 Complete =====================================")
     
     
-#     def pass4(self):
-#         self.temp = self.A.pop(0)
-#         self.C.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 4 Complete =====================================")
+    def pass4(self):
+        self.temp = self.A.pop(0)
+        self.C.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 4 Complete =====================================")
 
-#     def pass5(self):
-#         self.temp = self.B.pop(0)
-#         self.A.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 5 Complete =====================================")
+    def pass5(self):
+        self.temp = self.B.pop(0)
+        self.A.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 5 Complete =====================================")
     
-#     def pass6(self):
-#         self.temp = self.B.pop(0)
-#         self.C.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 6 Complete =====================================")
+    def pass6(self):
+        self.temp = self.B.pop(0)
+        self.C.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 6 Complete =====================================")
     
-#     def pass7(self):
-#         self.temp = self.A.pop(0)
-#         self.C.append(self.temp)
-#         time.sleep(3)
-#         print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
-#         print("Pass 7 Complete =====================================")
+    def pass7(self):
+        self.temp = self.A.pop(0)
+        self.C.append(self.temp)
+        time.sleep(3)
+        print("A = ",self.A     ,"     ",    "B = ",self.B      ,"     ", "C = ",self.C)
+        print("Pass 7 Complete =====================================")
 
     
 
-# obj1 = Tower()
-# obj1.tower(3)
-# obj1.tower(2)
-# obj1.tower(1)
-# obj1.pass1()
-# obj1.pass2()
-# obj1.pass3()
-# obj1.pass4()
-# obj1.pass5()
-# obj1.pass6()
-# obj1.pass7()
-
+obj1 = Tower()
+obj1.tower(3)
+obj1.tower(2)
+obj1.tower(1)
+obj1.pass1()
+obj1.pass2()
+obj1.pass3()
+obj1.pass4()
+obj1.pass5()
+obj1.pass6()
+obj1.pass7()
 
 
 
